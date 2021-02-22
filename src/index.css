@@ -19,7 +19,27 @@ body {
 }
 
 .pokedex {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 10px;
+}
+
+.pokedex-buttons-panel {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokedex-button {
+  background-color: green;
+  height: 50px;
+  width: 100px;
+}
+
+.filter-button {
+  background-color: orange;
+  height: 50px;
+  margin: 10px;
+  width: 80px;
 }
